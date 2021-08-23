@@ -24,7 +24,8 @@ namespace GenericsMadeSimple
 
         public T Add<T>(T num1, T num2)
         {
-            return num1 + num2;
+            //**********   Error - n operator + is defined for T and T
+            //return num1 + num2;
         }
 
 
